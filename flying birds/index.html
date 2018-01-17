@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flying birds in mountain</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        section{
+            width: 100%;
+            height: 500px;
+            background-image: linear-gradient(skyblue,blue);
+            position: relative;
+        }
+        img{
+            width: 100%;
+            height: 500px;
+        }
+        .bird-div1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: url('Eisr7.png');
+            width: 183.6px;
+            height: 168.6px;
+            animation: flying-bird 1s steps(5) infinite;
+        }
+        @keyframes flying-bird{
+            0%{
+                background-position: 10px 0px;
+            }
+            100%{
+                background-position: -918px 0px;
+            }
+        }
+        .bird-div2{
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            background: url('Eisr7.png');
+            width: 183.6px;
+            height: 168.6px;
+            animation: flying-bird 1s steps(5) infinite;
+        }
+        .bird-div3{
+            position: absolute;
+            top: 100px;
+            left: 550px;
+            background: url('Eisr7.png');
+            width: 183.6px;
+            height: 168.6px;
+            animation: flying-bird 1s steps(5) infinite;
+        }
+        .bird-div4{
+            position: absolute;
+            top: 10px;
+            left: 900px;
+            background: url('Eisr7.png');
+            width: 183.6px;
+            height: 168.6px;
+            animation: flying-bird 1s steps(5) infinite;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="bird-div1"></div>
+        <div class="bird-div2"></div>
+        <div class="bird-div3"></div>
+        <div class="bird-div4"></div>
+        <img src="Mountains-PNG-Pic.png" alt="">
+    </section>
+    
+</body>
+</html>
